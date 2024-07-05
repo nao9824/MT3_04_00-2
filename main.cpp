@@ -166,6 +166,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		ImGui::Begin("Window");
 		ImGui::DragFloat3("CameraTranslate", &cameraTranslate.x, 0.01f);
 		ImGui::DragFloat3("CameraRotate", &cameraRotate.x, 0.01f);
+		ImGui::DragFloat3("anchor", &spring.anchor.x, 0.01f);
 		ImGui::Text("Push Space!!!!!!!!!!!!!!");
 		ImGui::End();
 
